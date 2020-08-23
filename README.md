@@ -5,11 +5,13 @@
 1. check for the last name and email by the commands:
 
 `git config -- global user.name`
+
 `git config --global user.email`
 
 2. delete the last credentials for that username and email by the commands:
 
 `git config --global --unset user.name "the appeared username"`
+
 `git config --global --unset user.email "the appeared email"`
 
 3. on Mac desktop search for “keychain”, search for any Github account and delete it.
@@ -17,6 +19,7 @@
 4. set your credentials using the following command:
 
 `git config --global user.name “YOUR_GITHUB_USERNAME”`
+
 `git config --global user.email “YOUR_EMAIL_ADDRESS”`
 
 ## First time work
